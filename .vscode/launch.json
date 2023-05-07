@@ -1,0 +1,39 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+      {
+        "type": "node",
+        "name": "Run Script: debug Node-RED",
+        "program": "/home/user/.nvm/versions/node/v18.15.0/lib/node_modules/node-red/red.js",
+        "cwd": "/home/user/.node-red/",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+        "runtimeArgs": [
+          "--preserve-symlinks",
+          "--experimental-modules"
+        ],
+        "request": "launch"
+      },
+      {
+        "type": "node",
+        "name": "Run Script: debug Node-RED GitPod",
+        "program": "/home/gitpod/.nvm/versions/node/v16.16.0/lib/node_modules/node-red/red.js",
+        "cwd": "/home/gitpod/.node-red",
+        "skipFiles": [
+          "<node_internals>/**"
+        ],
+        "runtimeArgs": [
+          "--preserve-symlinks",
+          "--experimental-modules"
+        ],
+        "request": "launch"
+      },
+      { 
+        "type": "node",
+        "request": "attach",
+        "name": "Attach to Process - gitpod",
+        "processId": "${command:PickProcess}"
+      }
+    ]
+  }

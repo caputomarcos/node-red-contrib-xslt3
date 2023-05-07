@@ -1,0 +1,14 @@
+{
+  "label": {
+    "name": "Name",
+    "transfomer": "XSLT",
+    "errorHandling": "Error Handling",
+    "developmentMode": "Development Mode",
+    "showBanner": "Show Banner",
+    "disableInput": "Disable Input"
+  },
+  "placeholder": {
+    "name": "Here could stand your individual node name. E.g. Xslt3",
+    "transfomer": "xslt3transformer"
+  }
+}
