@@ -1,4 +1,4 @@
-node-red-contrib-xslt3
+node-red-contrib-xslt3transformer
 
 ### Inputs (just kidding, this node has no inputs)
 

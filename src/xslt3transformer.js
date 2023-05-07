@@ -1,7 +1,7 @@
 const { createBackwardCompatible } = require("./libs/utils.js");
 
 module.exports = function (RED) {
-  function Xslt3(config) {
+  function xslt3transformer(config) {
     RED.nodes.createNode(this, config);
     const node = this;
 
@@ -40,9 +40,9 @@ module.exports = function (RED) {
       };
     })
   }
-  RED.nodes.registerType("xslt3", Xslt3);
+  RED.nodes.registerType("xslt3transformer", xslt3transformer);
 
-  RED.nodes.registerType("xslt3-credentials", Xslt3, {
+  RED.nodes.registerType("xslt3transformer-credentials", xslt3transformer, {
     credentials: {},
   });
 

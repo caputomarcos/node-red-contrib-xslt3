@@ -1,29 +1,29 @@
 {
-  "name": "xslt3",
+  "name": "xslt3transformer",
   "version": "1.0.0",
-  "description": "node-red-contrib-xslt3",
+  "description": "node-red-contrib-xslt3transformer",
   "author": "Marcos Caputo <caputo.marcos@gmail.com>",
   "license": "MIT License",
-  "homepage": "https://github.com/caputomarcos/node-red-contrib-xslt3#readme",
+  "homepage": "https://github.com/caputomarcos/node-red-contrib-xslt3transformer#readme",
   "repository": {
     "type": "git",
-    "url": "git@github.com:caputomarcos/node-red-contrib-xslt3.git"
+    "url": "git@github.com:caputomarcos/node-red-contrib-xslt3transformer.git"
   },
   "bugs": {
-    "url": "https://github.com/caputomarcos/node-red-contrib-xslt3/issues"
+    "url": "https://github.com/caputomarcos/node-red-contrib-xslt3transformer/issues"
   },
   "engines": {
     "node": ">=12.0.0"
   },
   "keywords": [
     "node-red",
-    "xslt3",
+    "xslt3transformer",
     "xml"
   ],
   "node-red": {
     "version": ">=3.0.0",
     "nodes": {
-      "xslt3": "src/xslt3.js"
+      "xslt3transformer": "src/xslt3transformer.js"
     }
   },
   "dependencies": {},

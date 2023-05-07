@@ -1,5 +1,5 @@
 <script context="module">
-  RED.nodes.registerType("xslt3", {
+  RED.nodes.registerType("xslt3transformer", {
     paletteLabel: "xslt3",
     category: "transformers",
     color: "#fff",
@@ -28,18 +28,18 @@
 
     inputs: 1,
     outputs: 1,
-    icon: "icons/xslt3/logo-x16.svg",
+    icon: "icons/xslt3transformer/logo-x16.svg",
 
     i18nOptions: {
       // If there should be translation, each DOM needs the object 'node' (mostly it's already bound) or a 'i18n' property with the path to the folder e.g.: node.name + ':'.
       // if the node is not in the main folder, set here the folder name (which is in this case the same name as the node)
-      folder: "xslt3/",
+      folder: "xslt3transformer/",
     },
 
     label: function () {
       if (this.name) return this.name;
       //  else if (this.operation) return this.operation
-      else return "XSLT 3";
+      else return "xslt3";
     },
 
     oneditprepare: function () {

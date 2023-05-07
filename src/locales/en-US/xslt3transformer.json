@@ -8,7 +8,7 @@
     "disableInput": "Disable Input"
   },
   "placeholder": {
-    "name": "Here could stand your individual node name. E.g. Xslt3",
+    "name": "Here could stand your individual node name. E.g. xslt3transformer",
     "transfomer": "xslt3transformer"
   }
 }

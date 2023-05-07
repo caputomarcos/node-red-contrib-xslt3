@@ -31,7 +31,7 @@
     <div style="display:flex; flex-direction:column;">
 
       <p style="float: left">
-        <img src="icons/xslt3/logo.svg" alt="xslt3">
+        <img src="icons/xslt3transformer/xsl_transform.png" alt="xslt3transformer">
       </p>
       <p>A transformation in the XSLT language is expressed in the
         form of a <b>stylesheet</b>. A stylesheet is made up of one or more well-formed
