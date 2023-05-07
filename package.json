@@ -1,6 +1,6 @@
 {
   "name": "xslt3transformer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "node-red-contrib-xslt3transformer",
   "author": "Marcos Caputo <caputo.marcos@gmail.com>",
   "license": "MIT License",
